@@ -1,0 +1,28 @@
+nav {
+    margin: 25px;
+}
+
+nav ul {
+    font-size: 20px;
+    font-weight: 600;
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    /* color: #ffffff; */
+    padding: 0 30px;
+}
+
+.inner-header {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+}

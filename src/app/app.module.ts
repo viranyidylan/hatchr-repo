@@ -3,10 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { NavComponent } from './shared/nav/nav.component';
+import { CompaniesPageComponent } from './companies-page/companies-page.component';
+import { InstructionsComponent } from './assessments/instructions/instructions.component';
+import { ChallengeComponent } from './assessments/challenge/challenge.component';
+import { LoginComponent } from './auth/login/login.component';
+import { SignupComponent } from './auth/signup/signup.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    NavComponent,
+    CompaniesPageComponent,
+    InstructionsComponent,
+    ChallengeComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
